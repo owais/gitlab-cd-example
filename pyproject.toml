@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "gitlab-cd-example"
+version = "0.1.0"
+description = ""
+authors = ["Splunk <splunk-oss@splunk.com>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.8.2"
+flake8 = "^3.9.2"
+mypy = "^0.812"
+isort = "^5.8.0"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.0"
+black = "^21.5b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
