@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gitlab-cd-example"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Splunk <splunk-oss@splunk.com>"]
 license = "Apache-2.0"
@@ -16,6 +16,7 @@ isort = "^5.8.0"
 pytest = "^6.2.4"
 pytest-cov = "^2.12.0"
 black = "^21.5b1"
+tox = "^3.23.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
