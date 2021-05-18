@@ -61,5 +61,6 @@ release:
   except:
     - branches
   script:
-    - make publish
+    - make build 
     - shasum -a 256 dist/* > dist/checksums.txt
+    - make publish
